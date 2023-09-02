@@ -1,0 +1,18 @@
+GET http://localhost:3001/agenda
+
+###
+
+POST http://localhost:3001/agenda/new
+Content-Type: application/json
+
+{
+    "text": "Test"
+}
+
+###
+
+DELETE http://localhost:3001/agenda/delete/64efeb10e48945c573fbfcbf
+
+###
+
+PUT http://localhost:3001/agenda/complete/64efeb11e48945c573fbfcc1
